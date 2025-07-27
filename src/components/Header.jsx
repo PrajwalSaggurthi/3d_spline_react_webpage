@@ -23,7 +23,7 @@ const Header = () => {
             data-aos-easing="linear"
             data-aos-duration="1000" 
             href="/" className='flex items-center gap-2 text-3xl md:text-4xl lg:text-5xl font-ligh m-0'>
-            <img src="src/assets/header/3d.jpeg" alt="logo" className='w-10 h-10 object-cover rounded-full' />
+            <img src="/3d.jpeg" alt="logo" className='w-10 h-10 object-cover rounded-full' />
             <h1>BrandDo</h1>
             <h1 className='text-[#FFD700]'>Creative</h1>
         </a>
