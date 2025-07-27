@@ -5,13 +5,13 @@ import Spline from '@splinetool/react-spline';
 const Hero = () => {
   return (
     <>
-    <main className='flex lg-mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)] px-20'>
+    <main className='flex lg-mt-20 flex-col lg:flex-row items-center justify-between gap-5 min-h-[calc(90vh-6rem)] px-20'>
 
         <div data-aos="fade-right"
      data-aos-offset="300"
      data-aos-duration="1000"
      data-aos-easing="ease-in-sine" 
-     className='max-w-xl ml-[-5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0'>
+     className='max-w-xl  z-10 mt-[90%] md:mt-[60%] lg:mt-0 left-[25%]'>
             {/*tag box*/}
             <div className='relative w-[95%] sm:w-48 h-10 bg-gradient-to-r from-[#656565] to-[#FFD700] shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-full'>
               <div className='absolute inset-[3px] bg-black rounded-full flex items-center justify-center'>
